@@ -1,0 +1,37 @@
+p{
+font-family: 'Abril Fatface', cursive;
+}
+cite{
+  font-family: 'Merriweather', serif;
+}
+.foto{
+  position: relative;
+}
+.anakin{
+  position: absolute;
+  top: 240px;
+  right: 680px;
+  width: 300px;
+  height: 100px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+}
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #444444;
+    border-radius: 5px;
+    color: white;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
